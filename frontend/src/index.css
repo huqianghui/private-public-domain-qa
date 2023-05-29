@@ -1,0 +1,84 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    background: #f2f2f2;
+
+    font-family: "Segoe UI", -apple-system, BlinkMacSystemFont, "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+        sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+#root {
+    height: 100%;
+}
+
+table {
+    border: 1px solid #284;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+}
+
+tr {
+    padding-bottom: 10px;
+  }
+  
+td {
+    padding: 10px 10px 0;
+    text-align: center;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+ 
+td,th {
+    padding: 0;
+}
+ 
+.pure-table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    empty-cells: show;
+    border: 1px solid #cbcbcb;
+}
+ 
+.pure-table caption {
+    color: #000;
+    font: italic 85%/1 arial,sans-serif;
+    padding: 1em 0;
+    text-align: center;
+}
+ 
+.pure-table td,.pure-table th {
+    border-left: 1px solid #cbcbcb;
+    border-width: 0 0 0 1px;
+    font-size: inherit;
+    margin: 0;
+    overflow: visible;
+    padding: .5em 1em;
+}
+ 
+.pure-table thead {
+    background-color: #e0e0e0;
+    color: #000;
+    text-align: left;
+    vertical-align: bottom;
+}
+ 
+.pure-table td {
+    background-color: transparent;
+}
