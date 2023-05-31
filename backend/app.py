@@ -18,26 +18,26 @@ from azure.core.credentials import AzureKeyCredential
 import azure.cognitiveservices.speech as speechsdk
 
 # Replace these with your own values, either in environment variables or directly here
-AZURE_SEARCH_SERVICE = os.environ.get("AZURE_SEARCH_SERVICE") or "gptkb-odk2jh5qispeo"
-AZURE_SEARCH_INDEX = os.environ.get("AZURE_SEARCH_INDEX") or "gptkbindex"
-AZURE_COGNITIVE_SEARCH_KEY = os.environ.get("AZURE_COGNITIVE_SEARCH_KEY") or "yjiXaGvg0VjX3JLkr0MHxpx20X0w4a1M8LtQnQsQ1EAzSeB9SOUw"
+AZURE_SEARCH_SERVICE = os.environ.get("AZURE_SEARCH_SERVICE") 
+AZURE_SEARCH_INDEX = os.environ.get("AZURE_SEARCH_INDEX")
+AZURE_COGNITIVE_SEARCH_KEY = os.environ.get("AZURE_COGNITIVE_SEARCH_KEY")
 AZURE_COGNITIVE_SEARCH_ENDPOINT = 'https://{AZURE_SEARCH_SERVICE}.search.windows.net'.format_map(vars())
 
 # bing search config
-AZURE_BING_SEARCH_SUBSCRIPTION_KEY = os.environ.get("AZURE_BING_SEARCH_SUBSCRIPTION_KEY") or "39c9bddf57ad416f94467f73742cdd4b"
+AZURE_BING_SEARCH_SUBSCRIPTION_KEY = os.environ.get("AZURE_BING_SEARCH_SUBSCRIPTION_KEY")
 AZURE_BING_SEARCH_ENDPOINT = os.environ.get("AZURE_BING_SEARCH_ENDPOINT") or "https://api.bing.microsoft.com/v7.0/search"
 
 # blob storage config
-AZURE_BLOB_STORAGE_ACCOUNT = os.environ.get("AZURE_BLOB_STORAGE_ACCOUNT") or "st64eixpjnvnk3s"
-AZURE_BLOB_STORAGE_CONTAINER = os.environ.get("AZURE_BLOB_STORAGE_CONTAINER") or "content"
-AZURE_BLOB_STORAGE_ACCOUNT_ENDPOINT = os.environ.get("AZURE_BLOB_STORAGE_ACCOUNT_ENDPOINT") or "https://st64eixpjnvnk3s.blob.core.windows.net/"
+AZURE_BLOB_STORAGE_ACCOUNT = os.environ.get("AZURE_BLOB_STORAGE_ACCOUNT") 
+AZURE_BLOB_STORAGE_CONTAINER = os.environ.get("AZURE_BLOB_STORAGE_CONTAINER")
+AZURE_BLOB_STORAGE_ACCOUNT_ENDPOINT = os.environ.get("AZURE_BLOB_STORAGE_ACCOUNT_ENDPOINT")
 
 # azure openAI config
-AZURE_OPENAI_SERVICE = os.environ.get("AZURE_OPENAI_SERVICE") or "openAIdemo-hu"
-AZURE_OPENAI_GPT_DEPLOYMENT = os.environ.get("AZURE_OPENAI_GPT_DEPLOYMENT") or "text-davinci-003"
-AZURE_OPENAI_CODEX_DEPLOYMENT = os.environ.get("AZURE_OPENAI_CODEX_DEPLOYMENT") or "code-davinci-002"
-AZURE_OPENAI_CHATGPT_DEPLOYMENT = os.environ.get("AZURE_OPENAI_CHATGPT_DEPLOYMENT") or "gpt-35-turbo"
-AZURE_OPENAI_API_KEY = os.environ.get("AZURE_OPENAI_API_KEY") or "a65f52d60c744eb9b141d9939cd4c4b6"
+AZURE_OPENAI_SERVICE = os.environ.get("AZURE_OPENAI_SERVICE")
+AZURE_OPENAI_GPT_DEPLOYMENT = os.environ.get("AZURE_OPENAI_GPT_DEPLOYMENT")
+AZURE_OPENAI_CODEX_DEPLOYMENT = os.environ.get("AZURE_OPENAI_CODEX_DEPLOYMENT") 
+AZURE_OPENAI_CHATGPT_DEPLOYMENT = os.environ.get("AZURE_OPENAI_CHATGPT_DEPLOYMENT")
+AZURE_OPENAI_API_KEY = os.environ.get("AZURE_OPENAI_API_KEY")
 AZURE_OPENAI_BASE = os.environ.get("AZURE_OPENAI_BASE") or f"https://{AZURE_OPENAI_SERVICE}.openai.azure.com"
 
 # indexer config
@@ -53,8 +53,8 @@ AZURE_TENANT_ID = os.environ.get("AZURE_TENANT_ID")
 AZURE_SUBSCRIPTION_ID = os.environ.get("AZURE_SUBSCRIPTION_ID") 
 
 # speech service config 
-AZURE_SPEECH_SERVICE_KEY = os.environ.get("AZURE_SPEECH_SERVICE_KEY") or "ea614f6c7cd348d7822aea7dc314c1ad"
-AZURE_SPEECH_SERVICE_REGION = os.environ.get("AZURE_SPEECH_SERVICE_REGION") or "westus2"
+AZURE_SPEECH_SERVICE_KEY = os.environ.get("AZURE_SPEECH_SERVICE_KEY") 
+AZURE_SPEECH_SERVICE_REGION = os.environ.get("AZURE_SPEECH_SERVICE_REGION")
 
 speech_config = speechsdk.SpeechConfig(subscription=AZURE_SPEECH_SERVICE_KEY,region=AZURE_SPEECH_SERVICE_REGION)
 audio_config = speechsdk.audio.AudioOutputConfig(use_default_speaker=True)
