@@ -63,10 +63,10 @@ SELECT
 
         # STEP 3: Generate a response to the user based on the sql query
         mydb = mysql.connector.connect(
-        host="codex-sample-server.mysql.database.azure.com",
-        user="huqianghui",
-        password="hqh@163.com2025",
-        database="codex-sample"
+        host="XXXX.mysql.database.azure.com",
+        user="XXX",
+        password="XXX",
+        database="XXX"
     )
         mycursor = mydb.cursor()
         mycursor.execute(sql)
