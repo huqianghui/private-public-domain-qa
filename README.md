@@ -6,9 +6,8 @@ This is a demo application build upon this Github repo.
 Visit https://github.com/Azure-Samples/azure-search-openai-demo
 
 
-
 ## Preview
-![Preview](/docs/images/Slide2.JPG)
+![Preview](https://github.com/huqianghui/private-public-domain-qa/assets/7360524/e6cfa9ab-752b-4718-b52c-ac2b228ac944)
 ![Preview](/docs/images/Slide3.JPG)
 ![Preview](/docs/images/Slide4.JPG)
 
