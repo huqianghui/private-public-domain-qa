@@ -95,8 +95,13 @@ https://github.com/microsoft/sample-app-aoai-chatGPT/tree/main
 
 需要进行对比的，还是文件处理：
 在具体的data_util.py中，可以看到使用的默认都是英语环境和文档，而且认知搜索的话，只支持英语。
+参考官方文档链接如下：
+https://learn.microsoft.com/en-us/azure/cognitive-services/openai/concepts/use-your-data
+<img width="702" alt="Screen Shot 2023-06-25 at 1 29 24 PM" src="https://github.com/huqianghui/private-public-domain-qa/assets/7360524/125ed5dc-2ed7-4c62-af2e-3c5411f14bff">
 
 
 <img width="1039" alt="Screen Shot 2023-06-25 at 11 33 42 AM" src="https://github.com/huqianghui/private-public-domain-qa/assets/7360524/eeec11a0-998d-4d0f-b537-345ccbbb7f52">
+
+
 
 
