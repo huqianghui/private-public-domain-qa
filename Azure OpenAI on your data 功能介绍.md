@@ -20,7 +20,8 @@
 
 ## 2. 指定datasource之后，来看一下一个调用示例。
 
-<img width="997" alt="Screen Shot 2023-06-25 at 9 24 19 AM" src="https://github.com/huqianghui/private-public-domain-qa/assets/7360524/c2694119-dcd4-4661-8074-b2243a00eebd">
+<img width="1440" alt="Screen Shot 2023-06-25 at 9 29 39 AM" src="https://github.com/huqianghui/private-public-domain-qa/assets/7360524/fb4ea8fd-b399-4d8c-886f-10a955b0ab34">
+
 
 <img width="1438" alt="Screen Shot 2023-06-25 at 9 29 57 AM" src="https://github.com/huqianghui/private-public-domain-qa/assets/7360524/f735cae5-5ae6-4bdd-96c8-36ade4999564">
 
