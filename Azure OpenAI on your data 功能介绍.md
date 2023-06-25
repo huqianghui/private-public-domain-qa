@@ -101,7 +101,7 @@ https://learn.microsoft.com/en-us/azure/cognitive-services/openai/concepts/use-y
 
 
 <img width="1039" alt="Screen Shot 2023-06-25 at 11 33 42 AM" src="https://github.com/huqianghui/private-public-domain-qa/assets/7360524/eeec11a0-998d-4d0f-b537-345ccbbb7f52">
-
+**https://github.com/microsoft/sample-app-aoai-chatGPT/blob/main/scripts/data_utils.py**
 
 
 
