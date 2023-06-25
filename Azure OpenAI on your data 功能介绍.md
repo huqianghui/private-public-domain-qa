@@ -62,3 +62,14 @@ sample payload
 <img width="1438" alt="Screen Shot 2023-06-25 at 9 29 57 AM" src="https://github.com/huqianghui/private-public-domain-qa/assets/7360524/f735cae5-5ae6-4bdd-96c8-36ade4999564">
 
 
+## 3. 这里的datasource指的就是 azure cognitive search。
+
+可以使用以及创建好的azure cognitive search 的索引。如果没有的话，可以通过上传文件，或者指定blob storage的位置，让相应文件索引到azure cognitive search里面。
+
+按照步骤，一步步往下就可以。
+创建过程大致如下：
+
+<img width="997" alt="Screen Shot 2023-06-25 at 9 24 19 AM" src="https://github.com/huqianghui/private-public-domain-qa/assets/7360524/b63ae715-b13e-4c6e-a28c-c67475226fcb">
+
+
+
