@@ -110,6 +110,14 @@ https://learn.microsoft.com/en-us/azure/cognitive-services/openai/concepts/use-y
 **https://github.com/microsoft/sample-app-aoai-chatGPT/blob/main/scripts/data_utils.py**
 
 ## 5. 代码下载与再次客户化
+
+github源码地址：
+https://github.com/microsoft/sample-app-aoai-chatGPT
+
+服务器上源码路径：
 <img width="862" alt="Screen Shot 2023-06-25 at 1 54 53 PM" src="https://github.com/huqianghui/private-public-domain-qa/assets/7360524/f35311f0-708f-427b-a283-0a00749e67dd">
+
+所有的参数都通过相应的环境变量配置，在代码层面里面没有做任何变更，所以大家可以把代码克隆下来，进行修改，然后在发布。
+<img width="1215" alt="Screen Shot 2023-06-25 at 3 19 44 PM" src="https://github.com/huqianghui/private-public-domain-qa/assets/7360524/55f9e0d6-724b-4c87-8f7c-a5a0783b3b31">
 
 
