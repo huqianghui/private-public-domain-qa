@@ -71,5 +71,6 @@ sample payload
 
 <img width="997" alt="Screen Shot 2023-06-25 at 9 24 19 AM" src="https://github.com/huqianghui/private-public-domain-qa/assets/7360524/b63ae715-b13e-4c6e-a28c-c67475226fcb">
 
+创建好了之后，就可以对的datasource 进行聊天了。
 
 
