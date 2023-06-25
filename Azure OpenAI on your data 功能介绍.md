@@ -20,6 +20,8 @@
 
 ## 2. 指定datasource之后，来看一下一个调用示例。
 
+从浏览器的控制台，可以得知，绑定datasource的时候，调用就是2023-06-01-preview版本的API。
+
 <img width="1440" alt="Screen Shot 2023-06-25 at 9 29 39 AM" src="https://github.com/huqianghui/private-public-domain-qa/assets/7360524/fb4ea8fd-b399-4d8c-886f-10a955b0ab34">
 
 
