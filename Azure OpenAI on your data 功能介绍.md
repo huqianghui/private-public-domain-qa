@@ -72,5 +72,14 @@ sample payload
 <img width="997" alt="Screen Shot 2023-06-25 at 9 24 19 AM" src="https://github.com/huqianghui/private-public-domain-qa/assets/7360524/b63ae715-b13e-4c6e-a28c-c67475226fcb">
 
 创建好了之后，就可以对的datasource 进行聊天了。
+也可以选择发布到 azure app service中，供更多人使用。
+
+<img width="1034" alt="Screen Shot 2023-06-25 at 11 20 19 AM" src="https://github.com/huqianghui/private-public-domain-qa/assets/7360524/091c1286-289e-40de-8425-1fcd5135f8d8">
+
+访问的时候，需要认证信息。等会，就能访问了。
+
+<img width="1440" alt="Screen Shot 2023-06-25 at 8 55 07 AM" src="https://github.com/huqianghui/private-public-domain-qa/assets/7360524/ce567e78-7863-44db-92a1-0c936f97cf60">
+
+
 
 
