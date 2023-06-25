@@ -81,6 +81,19 @@ sample payload
 <img width="1440" alt="Screen Shot 2023-06-25 at 8 55 07 AM" src="https://github.com/huqianghui/private-public-domain-qa/assets/7360524/ce567e78-7863-44db-92a1-0c936f97cf60">
 
 
+### 4. 源码分析
+
+代码github连接如下：
+https://github.com/microsoft/sample-app-aoai-chatGPT/tree/main
+
+和在之前视频中介绍的相似，主要内容也如下四块：
+
+1） scripts ： 通过python和表单识别等，实现文件的切割，索引创建，内容上传等。
+2） frontend & static： 前端UI的展示
+3） app.py : 相当于backend，通过新的API版本2023-06-01-preview来请求服务。
+4） infra & infrastructure： 这一套内容的bicep脚本，实现azure组件的创建。
+
+需要进行对比的，还是文件处理：
 
 
 
