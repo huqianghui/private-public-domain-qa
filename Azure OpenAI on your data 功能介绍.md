@@ -24,9 +24,37 @@
 **请注意：示例中的API版本还是2023-03-15-preview**
 
 sample payload
-'''js
-{"dataSources":[{"type":"AzureCognitiveSearch","parameters":{"endpoint":"https://gptkb-zjpky6jixgcx2.search.windows.net","key":"ly4E8WUyzGaAXrkRlaJG318SUrM0Gt0IZyogTReEsMAzSeD7WRem","indexName":"auto-upload-index03","semanticConfiguration":"","queryType":"simple","fieldsMapping":null,"inScope":true,"roleInformation":"You are an AI assistant that helps people find information."}}],"messages":[{"role":"user","content":"what's the gpt4 model's main purpose?"}],"deployment":"chat","temperature":0,"top_p":1,"max_tokens":800,"stop":null,"stream":true}
-'''
+```javascript
+{
+  "dataSources": [
+    {
+      "type": "AzureCognitiveSearch",
+      "parameters": {
+        "endpoint": "https://gptkb-zjpky6jixgcx2.search.windows.net",
+        "key": "XXXXXX",
+        "indexName": "auto-upload-index03",
+        "semanticConfiguration": "",
+        "queryType": "simple",
+        "fieldsMapping": null,
+        "inScope": true,
+        "roleInformation": "You are an AI assistant that helps people find information."
+      }
+    }
+  ],
+  "messages": [
+    {
+      "role": "user",
+      "content": "what's the gpt4 model's main purpose?"
+    }
+  ],
+  "deployment": "chat",
+  "temperature": 0,
+  "top_p": 1,
+  "max_tokens": 800,
+  "stop": null,
+  "stream": true
+}
+```
 
 <img width="1440" alt="Screen Shot 2023-06-25 at 9 29 39 AM" src="https://github.com/huqianghui/private-public-domain-qa/assets/7360524/fb4ea8fd-b399-4d8c-886f-10a955b0ab34">
 
