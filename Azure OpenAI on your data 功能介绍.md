@@ -92,8 +92,11 @@ https://github.com/microsoft/sample-app-aoai-chatGPT/tree/main
 和在之前视频中介绍的相似，主要内容也如下四块：
 
 1） scripts ： 通过python和表单识别等，实现文件的切割，索引创建，内容上传等。
+
 2） frontend & static： 前端UI的展示
+
 3） app.py : 相当于backend，通过新的API版本2023-06-01-preview来请求服务。
+
 4） infra & infrastructure： 这一套内容的bicep脚本，实现azure组件的创建。
 
 需要进行对比的，还是文件处理：
