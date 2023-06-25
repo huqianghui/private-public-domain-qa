@@ -10,3 +10,7 @@
 2023-03-15-preview：
 
 <img width="1146" alt="Screen Shot 2023-06-25 at 10 27 45 AM" src="https://github.com/huqianghui/private-public-domain-qa/assets/7360524/a449990c-40ac-4033-88c5-429cb817e79b">
+
+2023-06-01-preview：
+
+<img width="1138" alt="Screen Shot 2023-06-25 at 10 28 00 AM" src="https://github.com/huqianghui/private-public-domain-qa/assets/7360524/8f1ffae7-2816-465c-a5f9-866182417b0f">
