@@ -94,6 +94,9 @@ https://github.com/microsoft/sample-app-aoai-chatGPT/tree/main
 4） infra & infrastructure： 这一套内容的bicep脚本，实现azure组件的创建。
 
 需要进行对比的，还是文件处理：
+在具体的data_util.py中，可以看到使用的默认都是英语环境和文档，而且认知搜索的话，只支持英语。
 
+
+<img width="1039" alt="Screen Shot 2023-06-25 at 11 33 42 AM" src="https://github.com/huqianghui/private-public-domain-qa/assets/7360524/eeec11a0-998d-4d0f-b537-345ccbbb7f52">
 
 
