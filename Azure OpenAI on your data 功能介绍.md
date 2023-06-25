@@ -80,6 +80,9 @@ sample payload
 
 <img width="1440" alt="Screen Shot 2023-06-25 at 8 55 07 AM" src="https://github.com/huqianghui/private-public-domain-qa/assets/7360524/ce567e78-7863-44db-92a1-0c936f97cf60">
 
+<img width="1438" alt="Screen Shot 2023-06-25 at 1 43 51 PM" src="https://github.com/huqianghui/private-public-domain-qa/assets/7360524/448c5918-b8cd-406c-9763-1c38621543a4">
+
+
 
 ### 4. 源码分析
 
