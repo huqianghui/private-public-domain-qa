@@ -1,6 +1,8 @@
 ## Azure OpenAI on your data 功能介绍
+
 视频讲解B站地址：
 https://www.bilibili.com/video/BV1bh4y1g711/
+
 视频讲解youtube地址：
 https://youtu.be/79zL4gBcE6U
 
