@@ -1,4 +1,10 @@
 ## Azure OpenAI on your data 功能介绍
+视频讲解B站地址：
+https://www.bilibili.com/video/BV1bh4y1g711/
+视频讲解youtube地址：
+https://youtu.be/79zL4gBcE6U
+
+
 随着新版本API的2023-06-01-preview的release， azure openAI也引入一些新的功能，其中 on your data就是其中之一。
 
 ### 1. 首先来对比一下，2023-03-15-preview 和 2023-06-01-preview在API schema层面有哪些不同。
