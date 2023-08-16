@@ -1,9 +1,9 @@
 # CognitiveSearchChatGPTDemo
 Combine Cognitive Search, Bing Search, TTS, STT with ChatGPT to provide Q&amp;A chatbot
 
-This is a demo application build upon this Github repo.
+哔哩哔哩地址：https://www.bilibili.com/video/BV1bF411d7io/
+youtube地址：https://youtu.be/x97ftlavJDM
 
-Visit https://github.com/Azure-Samples/azure-search-openai-demo
 
 
 ## Preview
