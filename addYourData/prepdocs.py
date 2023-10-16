@@ -36,12 +36,12 @@ def create_search_index(index_name, index_client):
         index = SearchIndex(
             name=index_name,
             fields=[
-                SearchableField(name="id", type="Edm.String", key=True),
-                SearchableField(name="content", type="Edm.String", analyzer_name="zh-Hans.microsoft"),
-                SearchableField(name="title", type="Edm.String", analyzer_name="zh-Hans.microsoft"),
-                SearchableField(name="filepath", type="Edm.String",analyzer_name="zh-Hans.microsoft"),
-                SearchableField(name="url", type="Edm.String"),
-                SearchableField(name="metadata", type="Edm.String"),
+               SearchableField(name="id", type="Edm.String", key=True,searchable=False, filterable=False, sortable=True, facetable=False),
+                SearchableField(name="content", type="Edm.String", analyzer_name="en.microsoft"),
+                SearchableField(name="title", type="Edm.String", analyzer_name="en.microsoft"),
+                SearchableField(name="filepath", type="Edm.String",analyzer_name="en.microsoft"),
+                SimpleField(name="url", type=SearchFieldDataType.String,Searchable=False,filterable=False, sortable=False, facetable=False),
+                SimpleField(name="metadata", type=SearchFieldDataType.String,Searchable=False,filterable=False, sortable=False, facetable=False),
                 SearchField(name="contentVector", type=SearchFieldDataType.Collection(SearchFieldDataType.Single),
                             hidden=False, searchable=True, filterable=False, sortable=False, facetable=False,
                             vector_search_dimensions=1536, vector_search_configuration="default"),
