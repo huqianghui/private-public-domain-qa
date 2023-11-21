@@ -11,6 +11,7 @@ from azure.search.documents.indexes.models import (
     SearchField,
     SearchFieldDataType,
     SemanticField,
+    SimpleField,
     SemanticSettings,
     SemanticConfiguration,
     SearchIndex,
@@ -23,9 +24,8 @@ from azure.search.documents import SearchClient
 from azure.ai.formrecognizer import DocumentAnalysisClient
 import os
 from dotenv import load_dotenv
-dotenv_path = os.path.abspath(os.path.join(os.path.dirname(os.path.dirname(__file__)), ".env"))
 # 加载 .env 文件中的环境变量
-load_dotenv(dotenv_path)
+load_dotenv()
 
 from data_utils import chunk_directory
 
@@ -37,9 +37,9 @@ def create_search_index(index_name, index_client):
             name=index_name,
             fields=[
                SearchableField(name="id", type="Edm.String", key=True,searchable=False, filterable=False, sortable=True, facetable=False),
-                SearchableField(name="content", type="Edm.String", analyzer_name="en.microsoft"),
-                SearchableField(name="title", type="Edm.String", analyzer_name="en.microsoft"),
-                SearchableField(name="filepath", type="Edm.String",analyzer_name="en.microsoft"),
+                SearchableField(name="content", type="Edm.String", analyzer_name="zh-Hans.microsoft"),
+                SearchableField(name="title", type="Edm.String", analyzer_name="zh-Hans.microsoft"),
+                SearchableField(name="filepath", type="Edm.String",analyzer_name="zh-Hans.microsoft"),
                 SimpleField(name="url", type=SearchFieldDataType.String,Searchable=False,filterable=False, sortable=False, facetable=False),
                 SimpleField(name="metadata", type=SearchFieldDataType.String,Searchable=False,filterable=False, sortable=False, facetable=False),
                 SearchField(name="contentVector", type=SearchFieldDataType.Collection(SearchFieldDataType.Single),
@@ -139,7 +139,7 @@ def create_and_populate_index(
         form_recognizer_client=form_recognizer_client,
         use_layout=True,
         ignore_errors=False,
-        njobs=1,
+        njobs=6,
         add_embeddings=True,
         azure_credential=azd_credential,
         embedding_endpoint=embedding_endpoint
@@ -171,12 +171,12 @@ if __name__ == "__main__":
     parser.add_argument(
         "--tenantid",
         required=False,
-        default="72f988bf-86f1-41af-91ab-2d7cd011db47",
+        default="16b3c013-d300-468d-ac64-7eda0820b6d3",
         help="Optional. Use this to define the Azure directory where to authenticate)",
     )
     parser.add_argument(
         "--searchservice",
-        default="gptkb-odk2jh5qispeo",
+        default="ai-search-hu-west-us-3",
         help="Name of the Azure Cognitive Search service where content should be indexed (must exist already)",
     )
     parser.add_argument(
@@ -187,19 +187,19 @@ if __name__ == "__main__":
     parser.add_argument(
         "--searchkey",
         required=False,
-        default="XXXXXXXXX",
+        default="je3yK1ohrjF2QYUZ0w4jv3GUiKl3rAExNOFwircuHhAzSeB0dHTB",
         help="Optional. Use this Azure Cognitive Search account key instead of the current user identity to login (use az login to set current user for Azure)",
     )
     parser.add_argument(
         "--formrecognizerservice",
         required=False,
-        default="cog-fr-odk2jh5qispeo",
+        default="document-intelligen-hu-east-us",
         help="Optional. Name of the Azure Form Recognizer service which will be used to extract text, tables and layout from the documents (must exist already)",
     )
     parser.add_argument(
         "--formrecognizerkey",
         required=False,
-        default="XXXXXXX",
+        default="1875aa48a5b3470d8ed851ca85e1df35",
         help="Optional. Use this Azure Form Recognizer account key instead of the current user identity to login (use az login to set current user for Azure)",
     )
     parser.add_argument(
